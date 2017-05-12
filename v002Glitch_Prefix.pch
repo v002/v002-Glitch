@@ -1,0 +1,7 @@
+#define v002_FBO_CLASS_NAME_REPLACE_ME v002GlitchFBO
+#define v002_SHADER_CLASS_NAME_REPLACE_ME v002GlitchShader
+#define v002_PLUGIN_CLASS_NAME_REPLACE_ME v002GlitchMasterPluginInterface
+#define v002TextureDownloaderUniqueClassName v002GlitchTextureDownloader
+#ifdef __OBJC__
+	#import <Quartz/Quartz.h>
+#endif

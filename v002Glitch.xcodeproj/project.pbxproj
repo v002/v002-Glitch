@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		233E2C640A83C768005A62DF /* Build & Copy */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 233E2D890A83C7AC005A62DF /* Build configuration list for PBXAggregateTarget "Build & Copy" */;
+			buildPhases = (
+				233E2C690A83C783005A62DF /* ShellScript */,
+			);
+			dependencies = (
+				1BF7D21E192EEA6100F6C819 /* PBXTargetDependency */,
+			);
+			name = "Build & Copy";
+			productName = "Build & Install";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		16BA96310A7EB9AC001E4983 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16BA96300A7EB9AC001E4983 /* Quartz.framework */; };
+		1B1895790F0E9FCA007D7CA8 /* v002AnalogGlitchPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1895770F0E9FCA007D7CA8 /* v002AnalogGlitchPlugIn.m */; };
+		1B1895940F0EB209007D7CA8 /* v002525PlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1895930F0EB209007D7CA8 /* v002525PlugIn.m */; };
+		1B1896870F0EFC4D007D7CA8 /* v002FBOGlitchPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1896150F0EFA15007D7CA8 /* v002FBOGlitchPlugIn.m */; };
+		1B1896880F0EFC4D007D7CA8 /* v002FBOTextureGlitchPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B1895900F0EA34B007D7CA8 /* v002FBOTextureGlitchPlugIn.m */; };
+		1B21DA370F0D905600CBB388 /* v002CoreVideoOpenGLGlitchPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B21DA360F0D905600CBB388 /* v002CoreVideoOpenGLGlitchPlugIn.m */; };
+		1B21DA3B0F0D911100CBB388 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B21DA3A0F0D911100CBB388 /* OpenGL.framework */; };
+		1B21DA410F0D914000CBB388 /* v002GlitchFileReaderPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B21DA400F0D914000CBB388 /* v002GlitchFileReaderPlugIn.m */; };
+		1B2EBC1C11B8B68900C2180B /* v002TextureDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B2EBC1B11B8B68900C2180B /* v002TextureDownloader.m */; };
+		1B8D6E7310B08D7100E7D5B7 /* v002FBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8D6E6E10B08D7100E7D5B7 /* v002FBO.m */; };
+		1B8D6E7410B08D7200E7D5B7 /* v002MasterPluginInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8D6E7010B08D7100E7D5B7 /* v002MasterPluginInterface.m */; };
+		1B8D6E7510B08D7200E7D5B7 /* v002Shader.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8D6E7210B08D7100E7D5B7 /* v002Shader.m */; };
+		1B8E7F370F3825790078DA74 /* v002.AnalogGlitch.frag in Resources */ = {isa = PBXBuildFile; fileRef = 1B1895750F0E9FC2007D7CA8 /* v002.AnalogGlitch.frag */; };
+		1B8E7F380F3825790078DA74 /* v002.AnalogGlitch.vert in Resources */ = {isa = PBXBuildFile; fileRef = 1B1895760F0E9FC2007D7CA8 /* v002.AnalogGlitch.vert */; };
+		8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BF7D21D192EEA6100F6C819 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 089C1669FE841209C02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D5B49AC048680CD000E48DA;
+			remoteInfo = v002Glitch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		16AA5C440A7EEE7300888E31 /* v002Glitch_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = v002Glitch_Prefix.pch; sourceTree = "<group>"; };
+		16BA96300A7EB9AC001E4983 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = /System/Library/Frameworks/Quartz.framework; sourceTree = "<absolute>"; };
+		1B0C906911B18C8C0086B745 /* v002GlitchImagePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002GlitchImagePlugin.h; sourceTree = "<group>"; };
+		1B0C906A11B18C8C0086B745 /* v002GlitchImagePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002GlitchImagePlugin.m; sourceTree = "<group>"; };
+		1B0C906B11B18C8C0086B745 /* v002GlitchImageReaderPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002GlitchImageReaderPlugin.h; sourceTree = "<group>"; };
+		1B0C906C11B18C8C0086B745 /* v002GlitchImageReaderPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002GlitchImageReaderPlugin.m; sourceTree = "<group>"; };
+		1B1895750F0E9FC2007D7CA8 /* v002.AnalogGlitch.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = v002.AnalogGlitch.frag; sourceTree = "<group>"; };
+		1B1895760F0E9FC2007D7CA8 /* v002.AnalogGlitch.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = v002.AnalogGlitch.vert; sourceTree = "<group>"; };
+		1B1895770F0E9FCA007D7CA8 /* v002AnalogGlitchPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002AnalogGlitchPlugIn.m; sourceTree = "<group>"; };
+		1B1895780F0E9FCA007D7CA8 /* v002AnalogGlitchPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002AnalogGlitchPlugIn.h; sourceTree = "<group>"; };
+		1B18958F0F0EA34B007D7CA8 /* v002FBOTextureGlitchPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002FBOTextureGlitchPlugIn.h; sourceTree = "<group>"; };
+		1B1895900F0EA34B007D7CA8 /* v002FBOTextureGlitchPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002FBOTextureGlitchPlugIn.m; sourceTree = "<group>"; };
+		1B1895920F0EB209007D7CA8 /* v002525PlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002525PlugIn.h; sourceTree = "<group>"; };
+		1B1895930F0EB209007D7CA8 /* v002525PlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002525PlugIn.m; sourceTree = "<group>"; };
+		1B1896140F0EFA15007D7CA8 /* v002FBOGlitchPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002FBOGlitchPlugin.h; sourceTree = "<group>"; };
+		1B1896150F0EFA15007D7CA8 /* v002FBOGlitchPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002FBOGlitchPlugIn.m; sourceTree = "<group>"; };
+		1B21DA350F0D905600CBB388 /* v002CoreVideoOpenGLGlitchPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002CoreVideoOpenGLGlitchPlugIn.h; sourceTree = "<group>"; };
+		1B21DA360F0D905600CBB388 /* v002CoreVideoOpenGLGlitchPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002CoreVideoOpenGLGlitchPlugIn.m; sourceTree = "<group>"; };
+		1B21DA3A0F0D911100CBB388 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		1B21DA3F0F0D914000CBB388 /* v002GlitchFileReaderPlugIn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002GlitchFileReaderPlugIn.h; sourceTree = "<group>"; };
+		1B21DA400F0D914000CBB388 /* v002GlitchFileReaderPlugIn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002GlitchFileReaderPlugIn.m; sourceTree = "<group>"; };
+		1B2EBC1A11B8B68900C2180B /* v002TextureDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002TextureDownloader.h; sourceTree = "<group>"; };
+		1B2EBC1B11B8B68900C2180B /* v002TextureDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002TextureDownloader.m; sourceTree = "<group>"; };
+		1B8D6E6D10B08D7100E7D5B7 /* v002FBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002FBO.h; sourceTree = "<group>"; };
+		1B8D6E6E10B08D7100E7D5B7 /* v002FBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002FBO.m; sourceTree = "<group>"; };
+		1B8D6E6F10B08D7100E7D5B7 /* v002MasterPluginInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002MasterPluginInterface.h; sourceTree = "<group>"; };
+		1B8D6E7010B08D7100E7D5B7 /* v002MasterPluginInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002MasterPluginInterface.m; sourceTree = "<group>"; };
+		1B8D6E7110B08D7100E7D5B7 /* v002Shader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = v002Shader.h; sourceTree = "<group>"; };
+		1B8D6E7210B08D7100E7D5B7 /* v002Shader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = v002Shader.m; sourceTree = "<group>"; };
+		8D5B49B6048680CD000E48DA /* v002Glitch.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = v002Glitch.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B4048680CD000E48DA /* Cocoa.framework in Frameworks */,
+				16BA96310A7EB9AC001E4983 /* Quartz.framework in Frameworks */,
+				1B21DA3B0F0D911100CBB388 /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* Quartz Composer Plug In */ = {
+			isa = PBXGroup;
+			children = (
+				1B8D6E6C10B08D7100E7D5B7 /* Helper Classes */,
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = "Quartz Composer Plug In";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B21DA3A0F0D911100CBB388 /* OpenGL.framework */,
+				16BA96300A7EB9AC001E4983 /* Quartz.framework */,
+				1058C7ADFEA557BF11CA2CBB /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1B1895750F0E9FC2007D7CA8 /* v002.AnalogGlitch.frag */,
+				1B1895760F0E9FC2007D7CA8 /* v002.AnalogGlitch.vert */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B1895920F0EB209007D7CA8 /* v002525PlugIn.h */,
+				1B1895930F0EB209007D7CA8 /* v002525PlugIn.m */,
+				1B1895780F0E9FCA007D7CA8 /* v002AnalogGlitchPlugIn.h */,
+				1B1895770F0E9FCA007D7CA8 /* v002AnalogGlitchPlugIn.m */,
+				1B1896140F0EFA15007D7CA8 /* v002FBOGlitchPlugin.h */,
+				1B1896150F0EFA15007D7CA8 /* v002FBOGlitchPlugIn.m */,
+				1B18958F0F0EA34B007D7CA8 /* v002FBOTextureGlitchPlugIn.h */,
+				1B1895900F0EA34B007D7CA8 /* v002FBOTextureGlitchPlugIn.m */,
+				1B21DA350F0D905600CBB388 /* v002CoreVideoOpenGLGlitchPlugIn.h */,
+				1B21DA360F0D905600CBB388 /* v002CoreVideoOpenGLGlitchPlugIn.m */,
+				1B21DA3F0F0D914000CBB388 /* v002GlitchFileReaderPlugIn.h */,
+				1B21DA400F0D914000CBB388 /* v002GlitchFileReaderPlugIn.m */,
+				1B0C906911B18C8C0086B745 /* v002GlitchImagePlugin.h */,
+				1B0C906A11B18C8C0086B745 /* v002GlitchImagePlugin.m */,
+				1B0C906B11B18C8C0086B745 /* v002GlitchImageReaderPlugin.h */,
+				1B0C906C11B18C8C0086B745 /* v002GlitchImageReaderPlugin.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D5B49B6048680CD000E48DA /* v002Glitch.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B8D6E6C10B08D7100E7D5B7 /* Helper Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1B8D6E6D10B08D7100E7D5B7 /* v002FBO.h */,
+				1B8D6E6E10B08D7100E7D5B7 /* v002FBO.m */,
+				1B8D6E6F10B08D7100E7D5B7 /* v002MasterPluginInterface.h */,
+				1B8D6E7010B08D7100E7D5B7 /* v002MasterPluginInterface.m */,
+				1B8D6E7110B08D7100E7D5B7 /* v002Shader.h */,
+				1B8D6E7210B08D7100E7D5B7 /* v002Shader.m */,
+				1B2EBC1A11B8B68900C2180B /* v002TextureDownloader.h */,
+				1B2EBC1B11B8B68900C2180B /* v002TextureDownloader.m */,
+			);
+			name = "Helper Classes";
+			path = "../../Helper Classes";
+			sourceTree = SOURCE_ROOT;
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				16AA5C440A7EEE7300888E31 /* v002Glitch_Prefix.pch */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* v002Glitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "v002Glitch" */;
+			buildPhases = (
+				8D5B49B1048680CD000E48DA /* Sources */,
+				1B8E7F450F38258B0078DA74 /* Resources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = v002Glitch;
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "Quartz Composer Plug In";
+			productReference = 8D5B49B6048680CD000E48DA /* v002Glitch.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "v002Glitch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* Quartz Composer Plug In */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* v002Glitch */,
+				233E2C640A83C768005A62DF /* Build & Copy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B8E7F450F38258B0078DA74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B8E7F370F3825790078DA74 /* v002.AnalogGlitch.frag in Resources */,
+				1B8E7F380F3825790078DA74 /* v002.AnalogGlitch.vert in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		233E2C690A83C783005A62DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies the built plug-in to \"~/Library/Graphics/Quartz Composer Plug-Ins\" and overrides any previous version at that location\n\nmkdir -p \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins\"\nrm -rf \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/v002Glitch.plugin\"\ncp -rf \"$BUILT_PRODUCTS_DIR/v002Glitch.plugin\" \"$USER_LIBRARY_DIR/Graphics/Quartz Composer Plug-Ins/\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B1896870F0EFC4D007D7CA8 /* v002FBOGlitchPlugIn.m in Sources */,
+				1B1896880F0EFC4D007D7CA8 /* v002FBOTextureGlitchPlugIn.m in Sources */,
+				1B21DA370F0D905600CBB388 /* v002CoreVideoOpenGLGlitchPlugIn.m in Sources */,
+				1B21DA410F0D914000CBB388 /* v002GlitchFileReaderPlugIn.m in Sources */,
+				1B1895790F0E9FCA007D7CA8 /* v002AnalogGlitchPlugIn.m in Sources */,
+				1B1895940F0EB209007D7CA8 /* v002525PlugIn.m in Sources */,
+				1B8D6E7310B08D7100E7D5B7 /* v002FBO.m in Sources */,
+				1B8D6E7410B08D7200E7D5B7 /* v002MasterPluginInterface.m in Sources */,
+				1B8D6E7510B08D7200E7D5B7 /* v002Shader.m in Sources */,
+				1B2EBC1C11B8B68900C2180B /* v002TextureDownloader.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BF7D21E192EEA6100F6C819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D5B49AC048680CD000E48DA /* v002Glitch */;
+			targetProxy = 1BF7D21D192EEA6100F6C819 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = v002Glitch_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = v002Glitch;
+				WRAPPER_EXTENSION = plugin;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = v002Glitch_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = v002Glitch;
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		233E2D8A0A83C7AC005A62DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				PRODUCT_NAME = "Build & Install";
+			};
+			name = Debug;
+		};
+		233E2D8B0A83C7AC005A62DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				PRODUCT_NAME = "Build & Install";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "v002Glitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "v002Glitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233E2D890A83C7AC005A62DF /* Build configuration list for PBXAggregateTarget "Build & Copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233E2D8A0A83C7AC005A62DF /* Debug */,
+				233E2D8B0A83C7AC005A62DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}

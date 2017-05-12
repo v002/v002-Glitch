@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>88A282A5-AE4E-43FA-A53C-CB882852739F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>v002Glitch</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E18C186C-F856-49E7-B54F-9F148E033A93</key>
+		<string>http://svn.xp-dev.com/svn/v002</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>v002 Projects/v002 QC Plugins/v002 Glitch/v002Glitch.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E18C186C-F856-49E7-B54F-9F148E033A93</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>E18C186C-F856-49E7-B54F-9F148E033A93</key>
+		<string>http://svn.xp-dev.com/svn/v002</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://svn.xp-dev.com/svn/v002/v002%20Projects/v002%20QC%20Plugins/v002%20Glitch/v002Glitch.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E18C186C-F856-49E7-B54F-9F148E033A93</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E18C186C-F856-49E7-B54F-9F148E033A93</string>
+			<key>IDESourceControlWCCName</key>
+			<string>v002</string>
+		</dict>
+	</array>
+</dict>
+</plist>

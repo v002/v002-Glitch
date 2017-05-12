@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>English</string>
+	<key>CFBundleExecutable</key>
+	<string>${EXECUTABLE_NAME}</string>
+	<key>CFBundleGetInfoString</key>
+	<string>v002 Glitch version 2.2 © 2011 vade (Anton Marini) and bangnoise (Tom Butterworth)</string>
+	<key>CFBundleIdentifier</key>
+	<string>info.v002.${PRODUCT_NAME:identifier}</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>${PRODUCT_NAME}</string>
+	<key>CFBundlePackageType</key>
+	<string>BNDL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>2.2</string>
+	<key>CFBundleVersion</key>
+	<string>2.2</string>
+	<key>QCPlugInClasses</key>
+	<array>
+		<string>v002525PlugIn</string>
+		<string>v002AnalogGlitchPlugIn</string>
+		<string>v002FBOGlitchPlugIn</string>
+		<string>v002FBOTextureGlitchPlugIn</string>
+		<string>v002GlitchFileReaderPlugIn</string>
+		<string>v002CoreVideoOpenGLGlitchPlugIn</string>
+	</array>
+</dict>
+</plist>
